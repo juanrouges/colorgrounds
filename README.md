@@ -15,6 +15,13 @@ For this project I will use "TheColorAPI" by Josh Beckman
 ## Database Tables
 
 1. Users
+   (id, email, password, first_name, last_name)
+
 2. Palettes
+   (id, name, color_code, user_id)
+
 3. Projects
+   (id, name, public, user_id)
+
 4. Palettes_projects
+   (user_id, project_id, palette_id)
