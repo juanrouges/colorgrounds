@@ -2,7 +2,175 @@
 <!--  -->
 
 {% block body %}
-<div class="container">
-  <h1><strong>Color Grounds</strong></h1>
-</div>
+<!--  -->
+{% include 'blocks/header.html' %}
+<section class="hero-banner">
+  <div class="hero-banner__container container text-center">
+    <h1><strong>Tailwinds Color Generator</strong></h1>
+    <p class="fs-5">
+      Press spacebar, enter a hexcode or change the HSL values to create a
+      custom color scale
+    </p>
+  </div>
+</section>
+
+<section class="selection">
+  <div class="selection__container container">
+    <div class="selection__row row mb-4">
+      <div class="col-12 col-lg-6 offset-lg-3">
+        <div class="selection__form">
+          <input
+            class="form-control form-control-lg"
+            type="text"
+            value="#ccc"
+          />
+          <button class="color-picker rounded-circle"></button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h6><strong>Color Name</strong></h6>
+    </div>
+    <div class="selection__colors">
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          50
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          100
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          200
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          300
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          400
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          500
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          600
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          700
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          800
+        </div>
+      </div>
+      <div>
+        <div
+          style="
+            background-color: #fafafa;
+            height: 180px;
+            border-right: 1px solid #dee2e6;
+          "
+        >
+          900
+        </div>
+      </div>
+    </div>
+    <div class="selection_control rounded-bottom">
+      <div>
+        <a href="">Edit</a>
+        <a href="">Export</a>
+        <a href="">Save</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sample">
+  <div class="sample__container container">
+    <div class="sample__inner">
+      <div class="rounded">
+        <h5><strong>Sample Palette UI</strong></h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__logo">
+      <strong>ColorGrounds</strong>
+    </div>
+    <div class="footer__copy">
+      Copyright 2023 Fightful, Inc. All Rights Reserved.
+    </div>
+  </div>
+</footer>
 {% endblock %}
